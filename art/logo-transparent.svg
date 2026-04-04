@@ -13,7 +13,7 @@
   <path d="M200,40 L330,100 L330,220 Q330,310 200,370 Q70,310 70,220 L70,100 Z" fill="url(#serShield)"/>
   <path d="M200,55 L318,110 L318,218 Q318,300 200,355 Q82,300 82,218 L82,110 Z" fill="url(#serInner)"/>
   <!-- Book (traced from EPS) -->
-  <g transform="translate(190,152) scale(0.0243,-0.0243) translate(-4938,-5000)" fill="#c0a050" stroke="#c0a050" stroke-width="60" stroke-linejoin="round">
+  <g transform="translate(190,152) scale(0.0208,-0.0208) translate(-4938,-5000)" fill="#c0a050" stroke="#c0a050" stroke-width="60" stroke-linejoin="round">
     <path d="M3384 7976 c-167 -62 -280 -180 -328 -345 -14 -49 -16 -272 -16
 -2280 0 -1872 3 -2237 14 -2292 36 -170 166 -330 334 -410 114 -54 165 -59
 583 -59 l379 0 0 -273 c0 -311 1 -317 70 -317 44 0 34 -9 243 222 l132 146
