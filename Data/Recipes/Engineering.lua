@@ -1494,7 +1494,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30303,
 		requiredSkill = 300,
-		phase = 1,
 	},
 	-- Fel Iron Casing
 	[30304] = {
@@ -1506,7 +1505,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30304,
 		requiredSkill = 300,
-		phase = 1,
 	},
 	-- Handful of Fel Iron Bolts
 	[30305] = {
@@ -1518,7 +1516,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30305,
 		requiredSkill = 300,
-		phase = 1,
 	},
 	-- Adamantite Frame
 	[30306] = {
@@ -1530,7 +1527,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30306,
 		requiredSkill = 325,
-		phase = 1,
 	},
 	-- Hardened Adamantite Tube
 	[30307] = {
@@ -1542,7 +1538,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30307,
 		requiredSkill = 340,
-		phase = 1,
 	},
 	-- Khorium Power Core
 	[30308] = {
@@ -1554,7 +1549,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30308,
 		requiredSkill = 340,
-		phase = 1,
 	},
 	-- Felsteel Stabilizer
 	[30309] = {
@@ -1566,7 +1560,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30309,
 		requiredSkill = 340,
-		phase = 1,
 	},
 	-- Fel Iron Bomb
 	[30310] = {
@@ -1578,7 +1571,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30310,
 		requiredSkill = 300,
-		phase = 1,
 	},
 	-- Adamantite Grenade
 	[30311] = {
@@ -1590,7 +1582,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30311,
 		requiredSkill = 325,
-		phase = 1,
 	},
 	-- Fel Iron Musket
 	[30312] = {
@@ -1602,7 +1593,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30312,
 		requiredSkill = 320,
-		phase = 1,
 	},
 	-- Adamantite Rifle (Schematic: 23799)
 	[23799] = {
@@ -1614,7 +1604,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30313,
 		requiredSkill = 350,
-		phase = 1,
 	},
 	-- Felsteel Boomstick (Schematic: 23800)
 	[23800] = {
@@ -1626,7 +1615,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30314,
 		requiredSkill = 360,
-		phase = 1,
 	},
 	-- Ornate Khorium Rifle (Schematic: 23802)
 	[23802] = {
@@ -1638,7 +1626,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30315,
 		requiredSkill = 375,
-		phase = 1,
 	},
 	-- Cogspinner Goggles (Schematic: 23803)
 	[23803] = {
@@ -1650,7 +1637,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30316,
 		requiredSkill = 340,
-		phase = 1,
 	},
 	-- Power Amplification Goggles (Schematic: 23804)
 	[23804] = {
@@ -1662,7 +1648,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30317,
 		requiredSkill = 340,
-		phase = 1,
 	},
 	-- Ultra-Spectropic Detection Goggles (Schematic: 23805)
 	[23805] = {
@@ -1674,7 +1659,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30318,
 		requiredSkill = 350,
-		phase = 1,
 	},
 	-- Hyper-Vision Goggles (Schematic: 23806)
 	[23806] = {
@@ -1686,7 +1670,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30325,
 		requiredSkill = 360,
-		phase = 1,
 	},
 	-- Adamantite Scope (Schematic: 23807)
 	[23807] = {
@@ -1698,7 +1681,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30329,
 		requiredSkill = 335,
-		phase = 1,
 	},
 	-- Khorium Scope (Schematic: 23808)
 	[23808] = {
@@ -1710,7 +1692,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30332,
 		requiredSkill = 360,
-		phase = 1,
 	},
 	-- Stabilized Eternium Scope (Schematic: 23809)
 	[23809] = {
@@ -1722,7 +1703,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30334,
 		requiredSkill = 375,
-		phase = 1,
 	},
 	-- Crashin' Thrashin' Robot (Schematic: 23810)
 	[23810] = {
@@ -1734,7 +1714,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30337,
 		requiredSkill = 325,
-		phase = 1,
 	},
 	-- White Smoke Flare (Schematic: 23811)
 	[23811] = {
@@ -1746,7 +1725,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30341,
 		requiredSkill = 335,
-		phase = 1,
 	},
 	-- Green Smoke Flare (Schematic: 23814)
 	[23814] = {
@@ -1758,7 +1736,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30344,
 		requiredSkill = 335,
-		phase = 1,
 	},
 	-- Fel Iron Shells
 	[30346] = {
@@ -1770,7 +1747,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30346,
 		requiredSkill = 310,
-		phase = 1,
 	},
 	-- Adamantite Shell Machine (Schematic: 23815)
 	[23815] = {
@@ -1782,7 +1758,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30347,
 		requiredSkill = 335,
-		phase = 1,
 	},
 	-- Fel Iron Toolbox (Schematic: 23816)
 	[23816] = {
@@ -1794,7 +1769,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30348,
 		requiredSkill = 325,
-		phase = 1,
 	},
 	-- Elemental Seaforium Charge (Schematic: 23874)
 	[23874] = {
@@ -1806,7 +1780,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30547,
 		requiredSkill = 350,
-		phase = 1,
 	},
 	-- Zapthrottle Mote Extractor (Schematic: 23888)
 	[23888] = {
@@ -1818,7 +1791,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30548,
 		requiredSkill = 305,
-		phase = 1,
 	},
 	-- Healing Potion Injector (Schematic: 35310)
 	[35310] = {
@@ -1830,7 +1802,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30551,
 		requiredSkill = 330,
-		phase = 1,
 	},
 	-- Mana Potion Injector (Schematic: 35311)
 	[35311] = {
@@ -1842,7 +1813,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30552,
 		requiredSkill = 345,
-		phase = 1,
 	},
 	-- Rocket Boots Xtreme (Schematic: 23887)
 	[23887] = {
@@ -1854,7 +1824,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 30556,
 		requiredSkill = 355,
-		phase = 1,
 	},
 	-- The Bigger One (Goblin)
 	[30558] = {
@@ -1867,7 +1836,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30558,
 		requiredSkill = 325,
 		specialization = 20222,
-		phase = 1,
 	},
 	-- Super Sapper Charge (Goblin)
 	[30560] = {
@@ -1880,7 +1848,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30560,
 		requiredSkill = 340,
 		specialization = 20222,
-		phase = 1,
 	},
 	-- Goblin Rocket Launcher (Goblin)
 	[30563] = {
@@ -1893,7 +1860,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30563,
 		requiredSkill = 350,
 		specialization = 20222,
-		phase = 1,
 	},
 	-- Foreman's Enchanted Helmet (Goblin)
 	[30565] = {
@@ -1906,7 +1872,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30565,
 		requiredSkill = 375,
 		specialization = 20222,
-		phase = 1,
 	},
 	-- Foreman's Reinforced Helmet (Goblin)
 	[30566] = {
@@ -1919,7 +1884,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30566,
 		requiredSkill = 375,
 		specialization = 20222,
-		phase = 1,
 	},
 	-- Gnomish Flame Turret (Gnomish)
 	[30568] = {
@@ -1932,7 +1896,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30568,
 		requiredSkill = 325,
 		specialization = 20219,
-		phase = 1,
 	},
 	-- Gnomish Poultryizer (Gnomish)
 	[30569] = {
@@ -1945,7 +1908,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30569,
 		requiredSkill = 340,
 		specialization = 20219,
-		phase = 1,
 	},
 	-- Nigh-Invulnerability Belt (Gnomish)
 	[30570] = {
@@ -1958,7 +1920,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30570,
 		requiredSkill = 350,
 		specialization = 20219,
-		phase = 1,
 	},
 	-- Gnomish Power Goggles (Gnomish)
 	[30574] = {
@@ -1971,7 +1932,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30574,
 		requiredSkill = 375,
 		specialization = 20219,
-		phase = 1,
 	},
 	-- Gnomish Battle Goggles (Gnomish)
 	[30575] = {
@@ -1984,7 +1944,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 30575,
 		requiredSkill = 375,
 		specialization = 20219,
-		phase = 1,
 	},
 	-- Purple Smoke Flare (Schematic: 25887)
 	[25887] = {
@@ -1996,7 +1955,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 32814,
 		requiredSkill = 335,
-		phase = 1,
 	},
 	-- Dimensional Ripper - Area 52 (Goblin)
 	[36954] = {
@@ -2009,7 +1967,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 36954,
 		requiredSkill = 350,
 		specialization = 20222,
-		phase = 1,
 	},
 	-- Ultrasafe Transporter - Toshley's Station (Gnomish)
 	[36955] = {
@@ -2022,7 +1979,6 @@ RecipeBook.recipeDB[202] = {
 		teaches = 36955,
 		requiredSkill = 350,
 		specialization = 20219,
-		phase = 1,
 	},
 	-- Icy Blasting Primers
 	[39971] = {
@@ -2034,7 +1990,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 39971,
 		requiredSkill = 335,
-		phase = 1,
 	},
 	-- Frost Grenade
 	[39973] = {
@@ -2046,7 +2001,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 39973,
 		requiredSkill = 335,
-		phase = 1,
 	},
 	-- Furious Gizmatic Goggles
 	[40274] = {
@@ -2058,7 +2012,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 40274,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Gyro-balanced Khorium Destroyer
 	[41307] = {
@@ -2070,7 +2023,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41307,
 		requiredSkill = 375,
-		phase = 1,
 	},
 	-- Justicebringer 2000 Specs
 	[41311] = {
@@ -2082,7 +2034,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41311,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Tankatronic Goggles
 	[41312] = {
@@ -2094,7 +2045,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41312,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Surestrike Goggles v2.0
 	[41314] = {
@@ -2106,7 +2056,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41314,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Gadgetstorm Goggles
 	[41315] = {
@@ -2118,7 +2067,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41315,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Living Replicator Specs
 	[41316] = {
@@ -2130,7 +2078,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41316,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Deathblow X11 Goggles
 	[41317] = {
@@ -2142,7 +2089,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41317,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Wonderheal XT40 Shades
 	[41318] = {
@@ -2154,7 +2100,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41318,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Magnified Moon Specs
 	[41319] = {
@@ -2166,7 +2111,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41319,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Destruction Holo-gogs
 	[41320] = {
@@ -2178,7 +2122,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41320,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Powerheal 4000 Lens
 	[41321] = {
@@ -2190,7 +2133,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 41321,
 		requiredSkill = 350,
-		phase = 2,
 	},
 	-- Adamantite Arrow Maker (Schematic: 33804)
 	[33804] = {
@@ -2202,7 +2144,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 43676,
 		requiredSkill = 335,
-		phase = 1,
 	},
 	-- Flying Machine
 	[44155] = {
@@ -2214,7 +2155,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 44155,
 		requiredSkill = 350,
-		phase = 1,
 	},
 	-- Turbo-Charged Flying Machine
 	[44157] = {
@@ -2226,7 +2166,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 44157,
 		requiredSkill = 375,
-		phase = 1,
 	},
 	-- Field Repair Bot 110G (Schematic: 34114)
 	[34114] = {
@@ -2238,7 +2177,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 44391,
 		requiredSkill = 360,
-		phase = 1,
 	},
 	-- Wonderheal XT68 Shades (Schematic: 35191)
 	[35191] = {
@@ -2250,7 +2188,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46106,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Justicebringer 3000 Specs (Schematic: 35187)
 	[35187] = {
@@ -2262,7 +2199,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46107,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Powerheal 9000 Lens (Schematic: 35189)
 	[35189] = {
@@ -2274,7 +2210,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46108,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Hyper-Magnified Moon Specs (Schematic: 35190)
 	[35190] = {
@@ -2286,7 +2221,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46109,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Primal-Attuned Goggles (Schematic: 35192)
 	[35192] = {
@@ -2298,7 +2232,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46110,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Annihilator Holo-Gogs (Schematic: 35186)
 	[35186] = {
@@ -2310,7 +2243,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46111,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Lightning Etched Specs (Schematic: 35193)
 	[35193] = {
@@ -2322,7 +2254,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46112,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Surestrike Goggles v3.0 (Schematic: 35194)
 	[35194] = {
@@ -2334,7 +2265,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46113,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Mayhem Projection Goggles (Schematic: 35195)
 	[35195] = {
@@ -2346,7 +2276,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46114,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Hard Khorium Goggles (Schematic: 35196)
 	[35196] = {
@@ -2358,7 +2287,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46115,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Quad Deathblow X44 Goggles (Schematic: 35197)
 	[35197] = {
@@ -2370,7 +2298,6 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46116,
 		requiredSkill = 375,
-		phase = 5,
 	},
 	-- Rocket Boots Xtreme Lite (Schematic: 35582)
 	[35582] = {
@@ -2382,6 +2309,5 @@ RecipeBook.recipeDB[202] = {
 		},
 		teaches = 46697,
 		requiredSkill = 355,
-		phase = 1,
 	},
 }

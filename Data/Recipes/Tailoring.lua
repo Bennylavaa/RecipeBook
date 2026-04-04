@@ -2735,7 +2735,6 @@ RecipeBook.recipeDB[197] = {
 			395,
 		},
 		teaches = 36315,
-		phase = 2,
 		requiredSkill = 375,
 	},
 	-- Phase 2: Belt of the Long Road (drop: Pattern 30281)
@@ -2747,7 +2746,6 @@ RecipeBook.recipeDB[197] = {
 			395,
 		},
 		teaches = 36316,
-		phase = 2,
 		requiredSkill = 375,
 	},
 	-- Phase 2: Boots of Blasting (drop: Pattern 30282)
@@ -2759,7 +2757,6 @@ RecipeBook.recipeDB[197] = {
 			395,
 		},
 		teaches = 36317,
-		phase = 2,
 		requiredSkill = 375,
 	},
 	-- Phase 2: Boots of the Long Road (drop: Pattern 30283)
@@ -2771,7 +2768,6 @@ RecipeBook.recipeDB[197] = {
 			395,
 		},
 		teaches = 36318,
-		phase = 2,
 		requiredSkill = 375,
 	},
 	-- Shadowcloth (vendor: Pattern 30483)
@@ -2848,7 +2844,6 @@ RecipeBook.recipeDB[197] = {
 		teaches = 40020,
 		reputationFaction = 1012,
 		reputationLevel = 6,
-		phase = 3,
 		requiredSkill = 375,
 	},
 	-- Phase 3: Soulguard Bracers (reputation: Pattern 32438, Ashtongue Deathsworn Friendly)
@@ -2862,7 +2857,6 @@ RecipeBook.recipeDB[197] = {
 		teaches = 40021,
 		reputationFaction = 1012,
 		reputationLevel = 5,
-		phase = 3,
 		requiredSkill = 375,
 	},
 	-- Phase 3: Soulguard Leggings (reputation: Pattern 32439, Ashtongue Deathsworn Honored)
@@ -2876,7 +2870,6 @@ RecipeBook.recipeDB[197] = {
 		teaches = 40023,
 		reputationFaction = 1012,
 		reputationLevel = 6,
-		phase = 3,
 		requiredSkill = 375,
 	},
 	-- Phase 3: Soulguard Girdle (reputation: Pattern 32440, Ashtongue Deathsworn Friendly)
@@ -2890,7 +2883,6 @@ RecipeBook.recipeDB[197] = {
 		teaches = 40024,
 		reputationFaction = 1012,
 		reputationLevel = 5,
-		phase = 3,
 		requiredSkill = 375,
 	},
 	-- Phase 3: Night's End (reputation: Pattern 32447, Ashtongue Deathsworn Honored)
@@ -2904,7 +2896,6 @@ RecipeBook.recipeDB[197] = {
 		teaches = 40060,
 		reputationFaction = 1012,
 		reputationLevel = 6,
-		phase = 3,
 		requiredSkill = 375,
 	},
 	-- Phase 3: Bracers of Nimble Thought (drop: Pattern 32754)
@@ -2916,7 +2907,6 @@ RecipeBook.recipeDB[197] = {
 			395,
 		},
 		teaches = 41205,
-		phase = 3,
 		requiredSkill = 375,
 	},
 	-- Phase 3: Mantle of Nimble Thought (drop: Pattern 32755)
@@ -2928,7 +2918,6 @@ RecipeBook.recipeDB[197] = {
 			395,
 		},
 		teaches = 41206,
-		phase = 3,
 		requiredSkill = 375,
 	},
 	-- Phase 3: Swiftheal Wraps (drop: Pattern 32752)
@@ -2940,7 +2929,6 @@ RecipeBook.recipeDB[197] = {
 			395,
 		},
 		teaches = 41207,
-		phase = 3,
 		requiredSkill = 375,
 	},
 	-- Phase 3: Swiftheal Mantle (drop: Pattern 32753)
@@ -2952,7 +2940,6 @@ RecipeBook.recipeDB[197] = {
 			395,
 		},
 		teaches = 41208,
-		phase = 3,
 		requiredSkill = 375,
 	},
 	-- Green Winter Clothes (vendor: Pattern 34261)
@@ -2986,7 +2973,6 @@ RecipeBook.recipeDB[197] = {
 			410,
 		},
 		teaches = 46128,
-		phase = 5,
 		requiredSkill = 365,
 	},
 	-- Phase 5: Hands of Eternal Light (drop: Pattern 35205)
@@ -2998,7 +2984,6 @@ RecipeBook.recipeDB[197] = {
 			410,
 		},
 		teaches = 46129,
-		phase = 5,
 		requiredSkill = 365,
 	},
 	-- Phase 5: Sunfire Robe (drop: Pattern 35206)
@@ -3010,7 +2995,6 @@ RecipeBook.recipeDB[197] = {
 			410,
 		},
 		teaches = 46130,
-		phase = 5,
 		requiredSkill = 365,
 	},
 	-- Phase 5: Robe of Eternal Light (drop: Pattern 35207)
@@ -3022,7 +3006,6 @@ RecipeBook.recipeDB[197] = {
 			410,
 		},
 		teaches = 46131,
-		phase = 5,
 		requiredSkill = 365,
 	},
 	-- Dress Shoes (vendor: Pattern 37915)

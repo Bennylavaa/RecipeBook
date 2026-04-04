@@ -316,10 +316,17 @@ function RecipeBook:GetRecipePhase(profID, recipeID)
     local data = self.recipeDB[profID] and self.recipeDB[profID][recipeID]
     if not data then return 1 end
 
-    -- Explicit phase takes priority
-    if data.phase then return data.phase end
+    -- Authoritative lookup from MaNGOS-derived dataset.
+    -- Prefer the taught-spell key (a character learns the spell, not the item),
+    -- fall back to the recipe item key.
+    if data.teaches and self.recipeSpellPhases and self.recipeSpellPhases[data.teaches] then
+        return self.recipeSpellPhases[data.teaches]
+    end
+    if self.recipePhases and self.recipePhases[recipeID] then
+        return self.recipePhases[recipeID]
+    end
 
-    -- Infer from source zones
+    -- Fallback: infer from source zones (catches trainer recipes not in the dataset)
     local sources = self.sourceDB[profID] and self.sourceDB[profID][recipeID]
     if not sources then return 1 end
 

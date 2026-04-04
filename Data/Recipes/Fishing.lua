@@ -12,12 +12,10 @@ RecipeBook.recipeDB[356] = {
 	[27532] = {
 		teaches = "Master",
 		requiredSkill = 275,
-		phase = 1,
 	},
 	[43308] = {
 		teaches = 43308,
 		isSpell = true,
 		requiredSkill = 100,
-		phase = 3,
 	},
 }

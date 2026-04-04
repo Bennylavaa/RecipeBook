@@ -252,6 +252,5 @@ RecipeBook.recipeDB[186] = {
 		teaches = 35128,
 		isSpell = true,
 		requiredSkill = 375,
-		phase = 5,
 	},
 }

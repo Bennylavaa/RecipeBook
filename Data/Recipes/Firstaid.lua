@@ -150,7 +150,6 @@ RecipeBook.recipeDB[129] = {
 		},
 		teaches = 27032,
 		requiredSkill = 330,
-		phase = 1,
 	},
 	[21993] = {
 		difficulty = {
@@ -161,11 +160,9 @@ RecipeBook.recipeDB[129] = {
 		},
 		teaches = 27033,
 		requiredSkill = 360,
-		phase = 1,
 	},
 	[22012] = {
 		teaches = "Master",
 		requiredSkill = 300,
-		phase = 1,
 	},
 }

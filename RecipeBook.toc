@@ -44,6 +44,7 @@ Data\NPCs.lua
 Data\Objects.lua
 Data\Quests.lua
 Data\Unique.lua
+Data\Phases.lua
 
 MapResolver.lua
 RecipeTracker.lua
