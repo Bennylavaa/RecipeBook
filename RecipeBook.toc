@@ -1,0 +1,52 @@
+## Interface: 20505
+## Title: RecipeBook
+## Notes: Recipe and profession browser with source tracking and waypoint integration.
+## Author: Breakbone - Dreamscythe
+## Version: 1.0.0
+## OptionalDeps: AddressBook, TomTom
+## SavedVariables: RecipeBookDB
+## SavedVariablesPerCharacter: RecipeBookCharDB
+
+Libs\LibStub\LibStub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibDataBroker-1.1\LibDataBroker-1.1.lua
+Libs\LibDBIcon-1.0\LibDBIcon-1.0.lua
+
+Data\Recipes\Alchemy.lua
+Data\Recipes\Blacksmithing.lua
+Data\Recipes\Cooking.lua
+Data\Recipes\Enchanting.lua
+Data\Recipes\Engineering.lua
+Data\Recipes\Firstaid.lua
+Data\Recipes\Fishing.lua
+Data\Recipes\Jewelcrafting.lua
+Data\Recipes\Leatherworking.lua
+Data\Recipes\Mining.lua
+Data\Recipes\Poisons.lua
+Data\Recipes\Tailoring.lua
+
+Data\Sources\Alchemy.lua
+Data\Sources\Blacksmithing.lua
+Data\Sources\Cooking.lua
+Data\Sources\Enchanting.lua
+Data\Sources\Engineering.lua
+Data\Sources\Firstaid.lua
+Data\Sources\Fishing.lua
+Data\Sources\Jewelcrafting.lua
+Data\Sources\Leatherworking.lua
+Data\Sources\Mining.lua
+Data\Sources\Poisons.lua
+Data\Sources\Tailoring.lua
+
+Data\NPCs.lua
+Data\Objects.lua
+Data\Quests.lua
+Data\Unique.lua
+
+MapResolver.lua
+RecipeTracker.lua
+Core.lua
+UIControls.lua
+UI.lua
+UIRender.lua
+MinimapButton.lua
