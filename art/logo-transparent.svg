@@ -13,7 +13,7 @@
   <path d="M200,40 L330,100 L330,220 Q330,310 200,370 Q70,310 70,220 L70,100 Z" fill="url(#serShield)"/>
   <path d="M200,55 L318,110 L318,218 Q318,300 200,355 Q82,300 82,218 L82,110 Z" fill="url(#serInner)"/>
   <!-- Book (traced from EPS) -->
-  <g transform="translate(200,175) scale(0.017,-0.017) translate(-5000,-5000)" fill="#c0a050" stroke="none">
+  <g transform="translate(190,152) scale(0.0243,-0.0243) translate(-4938,-5000)" fill="#c0a050" stroke="#c0a050" stroke-width="60" stroke-linejoin="round">
     <path d="M3384 7976 c-167 -62 -280 -180 -328 -345 -14 -49 -16 -272 -16
 -2280 0 -1872 3 -2237 14 -2292 36 -170 166 -330 334 -410 114 -54 165 -59
 583 -59 l379 0 0 -273 c0 -311 1 -317 70 -317 44 0 34 -9 243 222 l132 146
@@ -34,8 +34,8 @@ m11 -4180 c8 -8 12 -67 12 -200 l0 -188 -1489 0 c-1340 0 -1491 -2 -1505 -16
 0 0 -450z"/>
   </g>
   <!-- Decorative lines and text -->
-  <rect x="155" y="278" width="90" height="2.5" fill="#c0a050" rx="1"/>
-  <text x="200" y="300" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#c0a050" letter-spacing="3">RECIPE</text>
-  <text x="200" y="322" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#c0a050" letter-spacing="3">BOOK</text>
-  <rect x="160" y="329" width="80" height="2.5" fill="#c0a050" rx="1"/>
+  <rect x="140" y="248" width="120" height="2.5" fill="#c0a050" rx="1"/>
+  <text x="200" y="271" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#c0a050" letter-spacing="3">RECIPE</text>
+  <text x="200" y="294" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="20" fill="#c0a050" letter-spacing="3">BOOK</text>
+  <rect x="148" y="301" width="104" height="2.5" fill="#c0a050" rx="1"/>
 </svg>
