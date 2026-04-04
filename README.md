@@ -77,3 +77,5 @@ Extract the `RecipeBook` folder into your WoW AddOns directory:
 ```
 World of Warcraft/_anniversary_/Interface/AddOns/RecipeBook/
 ```
+
+After installation, open all of your profession panels to allow RecipeBook to scan your known recipes.
