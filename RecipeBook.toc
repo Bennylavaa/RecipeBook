@@ -3,6 +3,8 @@
 ## Notes: Recipe and profession browser with source tracking and waypoint integration.
 ## Author: Breakbone - Dreamscythe
 ## Version: 1.0.0
+## X-License: All Rights Reserved
+## X-Curse-Project-ID: PLACEHOLDER
 ## OptionalDeps: AddressBook, TomTom
 ## SavedVariables: RecipeBookDB
 ## SavedVariablesPerCharacter: RecipeBookCharDB

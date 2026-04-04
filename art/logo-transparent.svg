@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="55 25 290 360" width="290" height="360">
+  <defs>
+    <linearGradient id="serShield" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c0a050"/>
+      <stop offset="100%" stop-color="#8a6e30"/>
+    </linearGradient>
+    <linearGradient id="serInner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2a3a"/>
+      <stop offset="100%" stop-color="#1a1a28"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield -->
+  <path d="M200,40 L330,100 L330,220 Q330,310 200,370 Q70,310 70,220 L70,100 Z" fill="url(#serShield)"/>
+  <path d="M200,55 L318,110 L318,218 Q318,300 200,355 Q82,300 82,218 L82,110 Z" fill="url(#serInner)"/>
+  <!-- Book outline -->
+  <g fill="none" stroke="#c0a050" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Book body -->
+    <rect x="155" y="110" width="100" height="135" rx="4"/>
+    <!-- Spine -->
+    <path d="M155,110 Q145,110 145,120 L145,235 Q145,245 155,245"/>
+    <!-- Bottom edge -->
+    <line x1="145" y1="245" x2="255" y2="245"/>
+    <!-- Label rectangle on cover -->
+    <rect x="185" y="145" width="45" height="35" rx="2"/>
+    <!-- Bookmark ribbon -->
+    <path d="M195,245 L195,275 L205,265 L215,275 L215,245"/>
+  </g>
+</svg>

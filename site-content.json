@@ -1,0 +1,51 @@
+{
+  "id": "recipebook",
+  "name": "RecipeBook",
+  "tagline": "TBC profession recipe browser with source tracking and waypoint integration",
+  "description": "Browse every TBC profession recipe organized by source type. Track what you know, filter by continent, zone, phase, and faction. Set TomTom waypoints to vendors and trainers via AddressBook. 12 professions supported with collapsible source categories, search, and shift-click recipe linking.",
+  "logo": "art/logo-transparent.svg",
+  "reverse": false,
+  "features": [
+    {
+      "title": "12 Professions",
+      "description": "Every TBC recipe for Alchemy, Blacksmithing, Cooking, Enchanting, Engineering, First Aid, Fishing, Jewelcrafting, Leatherworking, Mining, Poisons, and Tailoring."
+    },
+    {
+      "title": "Source Browsing",
+      "description": "Recipes grouped by how you obtain them — Trainer, Vendor, Quest, Drop, and more. Collapsible sections let you focus on what matters."
+    },
+    {
+      "title": "Known Tracking",
+      "description": "Open your profession window and RecipeBook scans what you've learned. Toggle Hide Known to see only recipes you still need."
+    },
+    {
+      "title": "Zone & Phase Filtering",
+      "description": "Filter by continent, zone, and content phase. Auto-detect mode filters to your current location automatically."
+    },
+    {
+      "title": "Waypoint Integration",
+      "description": "Click to set TomTom waypoints to recipe vendors and trainers via AddressBook."
+    },
+    {
+      "title": "Faction-Aware",
+      "description": "Automatically filters out recipes from opposite-faction vendors and quests."
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "screenshot.png",
+      "alt": "RecipeBook main window showing profession recipes grouped by source",
+      "caption": "Browse profession recipes organized by source type with filtering and tracking"
+    }
+  ],
+  "links": [
+    {
+      "label": "GitHub",
+      "href": "https://github.com/breakbone-addons/RecipeBook"
+    },
+    {
+      "label": "CurseForge",
+      "href": "https://www.curseforge.com/wow/addons/recipebook"
+    }
+  ]
+}
