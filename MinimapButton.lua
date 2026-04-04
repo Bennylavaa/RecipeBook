@@ -7,7 +7,7 @@ function RecipeBook:CreateMinimapButton()
     local dataObj = ldb:NewDataObject("RecipeBook", {
         type = "launcher",
         text = "RecipeBook",
-        icon = "Interface\\Icons\\INV_Misc_Book_09",
+        icon = "Interface\\AddOns\\RecipeBook\\minimap-icon",
         OnClick = function(_, button)
             if button == "LeftButton" then
                 RecipeBook:Toggle()
