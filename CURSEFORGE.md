@@ -1,5 +1,7 @@
 ## RecipeBook is a profession recipe browser for TBC Anniversary. Browse every recipe by source, track what you know, filter by zone and phase, and set waypoints to vendors and trainers.
 
+<img src="https://breakbone-addons.com/images/recipebook-screenshot.png" alt="RecipeBook Main Window" width="500"/>
+
 ## Features
 
 ### Browse All Recipes

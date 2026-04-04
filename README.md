@@ -46,7 +46,7 @@ Narrow results with multiple filter options that work together:
 
 Click the green arrow next to any vendor or trainer to set a TomTom waypoint via AddressBook. Trainers link to the nearest trainer for that profession.
 
-- Requires both [AddressBook](https://www.curseforge.com/wow/addons/addressbook) and [TomTom](https://www.curseforge.com/wow/addons/tomtom-tbc)
+- Requires both [AddressBook](https://www.curseforge.com/wow/addons/addressbook) and [TomTom](https://www.curseforge.com/wow/addons/tomtom)
 
 ## Data Sources
 
