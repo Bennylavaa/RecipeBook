@@ -12,6 +12,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 2840,
 		isSpell = true,
 		requiredSkill = 25,
+		phase = 1,
 	},
 	[2658] = {
 		icon = 133215,
@@ -24,6 +25,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 2842,
 		isSpell = true,
 		requiredSkill = 75,
+		phase = 1,
 	},
 	[2659] = {
 		icon = 133227,
@@ -36,6 +38,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 2841,
 		isSpell = true,
 		requiredSkill = 65,
+		phase = 1,
 	},
 	[3304] = {
 		icon = 133219,
@@ -48,6 +51,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 3576,
 		isSpell = true,
 		requiredSkill = 65,
+		phase = 1,
 	},
 	[3307] = {
 		icon = 133232,
@@ -60,6 +64,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 3575,
 		isSpell = true,
 		requiredSkill = 125,
+		phase = 1,
 	},
 	[3308] = {
 		icon = 133217,
@@ -72,6 +77,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 3577,
 		isSpell = true,
 		requiredSkill = 155,
+		phase = 1,
 	},
 	[3569] = {
 		icon = 133234,
@@ -84,6 +90,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 3859,
 		isSpell = true,
 		requiredSkill = 165,
+		phase = 1,
 	},
 	[10097] = {
 		icon = 133220,
@@ -96,6 +103,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 3860,
 		isSpell = true,
 		requiredSkill = 175,
+		phase = 1,
 	},
 	[10098] = {
 		icon = 133222,
@@ -108,6 +116,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 6037,
 		isSpell = true,
 		requiredSkill = 230,
+		phase = 1,
 	},
 	[14891] = {
 		icon = 133233,
@@ -120,6 +129,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 11371,
 		isSpell = true,
 		requiredSkill = 230,
+		phase = 1,
 	},
 	[16153] = {
 		icon = 133221,
@@ -132,6 +142,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 12359,
 		isSpell = true,
 		requiredSkill = 250,
+		phase = 1,
 	},
 	[22967] = {
 		icon = 133235,
@@ -144,6 +155,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 17771,
 		isSpell = true,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[29356] = {
 		icon = 133230,
@@ -156,6 +168,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 23445,
 		isSpell = true,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[29358] = {
 		icon = 133224,
@@ -168,6 +181,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 23446,
 		isSpell = true,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[29359] = {
 		icon = 133229,
@@ -180,6 +194,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 23447,
 		isSpell = true,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[29360] = {
 		icon = 133231,
@@ -192,6 +207,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 23448,
 		isSpell = true,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[29361] = {
 		icon = 133223,
@@ -204,6 +220,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 23449,
 		isSpell = true,
 		requiredSkill = 375,
+		phase = 1,
 	},
 	[29686] = {
 		icon = 133226,
@@ -216,6 +233,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 23573,
 		isSpell = true,
 		requiredSkill = 375,
+		phase = 1,
 	},
 	[35750] = {
 		icon = 132838,
@@ -228,6 +246,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 22573,
 		isSpell = true,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[35751] = {
 		icon = 132839,
@@ -240,6 +259,7 @@ RecipeBook.recipeDB[186] = {
 		teaches = 22574,
 		isSpell = true,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[46353] = {
 		icon = 133235,
@@ -252,5 +272,6 @@ RecipeBook.recipeDB[186] = {
 		teaches = 35128,
 		isSpell = true,
 		requiredSkill = 375,
+		phase = 5,
 	},
 }

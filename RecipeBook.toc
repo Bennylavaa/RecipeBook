@@ -52,4 +52,5 @@ Core.lua
 UIControls.lua
 UI.lua
 UIRender.lua
+UIDropSources.lua
 MinimapButton.lua

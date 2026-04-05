@@ -10,6 +10,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 25339,
 		requiredSkill = 110,
+		phase = 1,
 	},
 	[20855] = {
 		difficulty = {
@@ -20,6 +21,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 25323,
 		requiredSkill = 125,
+		phase = 1,
 	},
 	[20856] = {
 		difficulty = {
@@ -30,6 +32,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 25320,
 		requiredSkill = 150,
+		phase = 1,
 	},
 	[20970] = {
 		difficulty = {
@@ -40,6 +43,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 25610,
 		requiredSkill = 120,
+		phase = 1,
 	},
 	[20971] = {
 		difficulty = {
@@ -50,6 +54,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 25612,
 		requiredSkill = 125,
+		phase = 1,
 	},
 	[20973] = {
 		difficulty = {
@@ -60,6 +65,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 25617,
 		requiredSkill = 150,
+		phase = 1,
 	},
 	[20974] = {
 		difficulty = {
@@ -70,6 +76,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 25618,
 		requiredSkill = 160,
+		phase = 1,
 	},
 	[20975] = {
 		difficulty = {
@@ -80,6 +87,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 25619,
 		requiredSkill = 170,
+		phase = 1,
 	},
 	[20976] = {
 		difficulty = {
@@ -90,6 +98,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 25622,
 		requiredSkill = 190,
+		phase = 1,
 	},
 	[21940] = {
 		difficulty = {
@@ -100,6 +109,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26873,
 		requiredSkill = 200,
+		phase = 1,
 	},
 	[21941] = {
 		difficulty = {
@@ -110,6 +120,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26875,
 		requiredSkill = 215,
+		phase = 1,
 	},
 	[21942] = {
 		difficulty = {
@@ -120,6 +131,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26878,
 		requiredSkill = 225,
+		phase = 1,
 	},
 	[21943] = {
 		difficulty = {
@@ -130,6 +142,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26881,
 		requiredSkill = 225,
+		phase = 1,
 	},
 	[21944] = {
 		difficulty = {
@@ -140,6 +153,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26882,
 		requiredSkill = 235,
+		phase = 1,
 	},
 	[21945] = {
 		difficulty = {
@@ -150,6 +164,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26887,
 		requiredSkill = 245,
+		phase = 1,
 	},
 	[21947] = {
 		difficulty = {
@@ -160,6 +175,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26896,
 		requiredSkill = 250,
+		phase = 1,
 	},
 	[21948] = {
 		difficulty = {
@@ -170,6 +186,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26897,
 		requiredSkill = 250,
+		phase = 1,
 	},
 	[21949] = {
 		difficulty = {
@@ -180,6 +197,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26900,
 		requiredSkill = 260,
+		phase = 1,
 	},
 	[21952] = {
 		difficulty = {
@@ -190,6 +208,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26906,
 		requiredSkill = 275,
+		phase = 1,
 	},
 	[21953] = {
 		difficulty = {
@@ -200,6 +219,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26909,
 		requiredSkill = 285,
+		phase = 1,
 	},
 	[21954] = {
 		difficulty = {
@@ -210,6 +230,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26910,
 		requiredSkill = 285,
+		phase = 1,
 	},
 	[21955] = {
 		difficulty = {
@@ -220,6 +241,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26912,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[21956] = {
 		difficulty = {
@@ -230,6 +252,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26914,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[21957] = {
 		difficulty = {
@@ -240,6 +263,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 26915,
 		requiredSkill = 305,
+		phase = 1,
 	},
 	[23130] = {
 		difficulty = {
@@ -250,6 +274,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28903,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[23131] = {
 		difficulty = {
@@ -260,6 +285,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28905,
 		requiredSkill = 305,
+		phase = 1,
 	},
 	[23133] = {
 		difficulty = {
@@ -272,6 +298,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 315,
 		reputationFaction = 934,
 		reputationLevel = 5,
+		phase = 1,
 	},
 	[23134] = {
 		difficulty = {
@@ -284,6 +311,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 325,
 		reputationFaction = 941,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[23135] = {
 		difficulty = {
@@ -294,6 +322,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28910,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[23136] = {
 		difficulty = {
@@ -306,6 +335,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 305,
 		reputationFaction = 941,
 		reputationLevel = 5,
+		phase = 1,
 	},
 	[23137] = {
 		difficulty = {
@@ -316,6 +346,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28914,
 		requiredSkill = 315,
+		phase = 1,
 	},
 	[23138] = {
 		difficulty = {
@@ -328,6 +359,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 325,
 		reputationFaction = 1011,
 		reputationLevel = 5,
+		phase = 1,
 	},
 	[23140] = {
 		difficulty = {
@@ -338,6 +370,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28916,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[23141] = {
 		difficulty = {
@@ -348,6 +381,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28917,
 		requiredSkill = 305,
+		phase = 1,
 	},
 	[23143] = {
 		difficulty = {
@@ -360,6 +394,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 325,
 		reputationFaction = 934,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[23144] = {
 		difficulty = {
@@ -370,6 +405,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28925,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[23145] = {
 		difficulty = {
@@ -382,6 +418,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 305,
 		reputationFaction = 932,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[23146] = {
 		difficulty = {
@@ -394,6 +431,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 315,
 		reputationFaction = 941,
 		reputationLevel = 5,
+		phase = 1,
 	},
 	[23147] = {
 		difficulty = {
@@ -404,6 +442,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28936,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[23148] = {
 		difficulty = {
@@ -414,6 +453,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28938,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[23149] = {
 		difficulty = {
@@ -426,6 +466,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 305,
 		reputationFaction = 932,
 		reputationLevel = 5,
+		phase = 1,
 	},
 	[23150] = {
 		difficulty = {
@@ -438,6 +479,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 315,
 		reputationFaction = 941,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[23151] = {
 		difficulty = {
@@ -448,6 +490,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28948,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[23152] = {
 		difficulty = {
@@ -458,6 +501,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28950,
 		requiredSkill = 300,
+		phase = 1,
 	},
 	[23153] = {
 		difficulty = {
@@ -468,6 +512,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28953,
 		requiredSkill = 305,
+		phase = 1,
 	},
 	[23154] = {
 		difficulty = {
@@ -478,6 +523,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 28955,
 		requiredSkill = 315,
+		phase = 1,
 	},
 	[23155] = {
 		difficulty = {
@@ -490,6 +536,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 325,
 		reputationFaction = 941,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[24158] = {
 		difficulty = {
@@ -500,6 +547,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31053,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24159] = {
 		difficulty = {
@@ -510,6 +558,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31054,
 		requiredSkill = 355,
+		phase = 1,
 	},
 	[24160] = {
 		difficulty = {
@@ -520,6 +569,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31055,
 		requiredSkill = 355,
+		phase = 1,
 	},
 	[24161] = {
 		difficulty = {
@@ -530,6 +580,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31056,
 		requiredSkill = 360,
+		phase = 1,
 	},
 	[24162] = {
 		difficulty = {
@@ -540,6 +591,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31057,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[24163] = {
 		difficulty = {
@@ -550,6 +602,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31058,
 		requiredSkill = 345,
+		phase = 1,
 	},
 	[24164] = {
 		difficulty = {
@@ -560,6 +613,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31060,
 		requiredSkill = 355,
+		phase = 1,
 	},
 	[24165] = {
 		difficulty = {
@@ -570,6 +624,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31061,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[24166] = {
 		difficulty = {
@@ -580,6 +635,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31067,
 		requiredSkill = 355,
+		phase = 1,
 	},
 	[24167] = {
 		difficulty = {
@@ -590,6 +646,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31068,
 		requiredSkill = 355,
+		phase = 1,
 	},
 	[24168] = {
 		difficulty = {
@@ -600,6 +657,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31070,
 		requiredSkill = 360,
+		phase = 1,
 	},
 	[24169] = {
 		difficulty = {
@@ -610,6 +668,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31071,
 		requiredSkill = 360,
+		phase = 1,
 	},
 	[24170] = {
 		difficulty = {
@@ -620,6 +679,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31072,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[24171] = {
 		difficulty = {
@@ -630,6 +690,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31076,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[24172] = {
 		difficulty = {
@@ -640,6 +701,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31077,
 		requiredSkill = 370,
+		phase = 1,
 	},
 	[24173] = {
 		difficulty = {
@@ -650,6 +712,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31078,
 		requiredSkill = 370,
+		phase = 1,
 	},
 	[24174] = {
 		difficulty = {
@@ -662,6 +725,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 989,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[24175] = {
 		difficulty = {
@@ -674,6 +738,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 1011,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[24176] = {
 		difficulty = {
@@ -686,6 +751,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 934,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[24177] = {
 		difficulty = {
@@ -698,6 +764,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 932,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[24178] = {
 		difficulty = {
@@ -710,6 +777,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 941,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[24179] = {
 		difficulty = {
@@ -722,6 +790,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 370,
 		reputationFaction = 1011,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[24181] = {
 		difficulty = {
@@ -734,6 +803,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 370,
 		reputationFaction = 989,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[24182] = {
 		difficulty = {
@@ -746,6 +816,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 370,
 		reputationFaction = 935,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[24183] = {
 		difficulty = {
@@ -758,6 +829,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 370,
 		reputationFaction = 942,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[24193] = {
 		difficulty = {
@@ -768,6 +840,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31084,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24194] = {
 		difficulty = {
@@ -778,6 +851,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31085,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24195] = {
 		difficulty = {
@@ -788,6 +862,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31087,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24197] = {
 		difficulty = {
@@ -798,6 +873,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31090,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24198] = {
 		difficulty = {
@@ -808,6 +884,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31091,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24200] = {
 		difficulty = {
@@ -818,6 +895,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31149,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24201] = {
 		difficulty = {
@@ -828,6 +906,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31094,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24202] = {
 		difficulty = {
@@ -838,6 +917,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31095,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24203] = {
 		difficulty = {
@@ -848,6 +928,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31096,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24204] = {
 		difficulty = {
@@ -858,6 +939,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31097,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24206] = {
 		difficulty = {
@@ -868,6 +950,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31099,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24207] = {
 		difficulty = {
@@ -878,6 +961,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31100,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24208] = {
 		difficulty = {
@@ -888,6 +972,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31101,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24209] = {
 		difficulty = {
@@ -898,6 +983,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31102,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24210] = {
 		difficulty = {
@@ -908,6 +994,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31103,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24211] = {
 		difficulty = {
@@ -918,6 +1005,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31104,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24212] = {
 		difficulty = {
@@ -928,6 +1016,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31105,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24213] = {
 		difficulty = {
@@ -938,6 +1027,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31106,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24214] = {
 		difficulty = {
@@ -948,6 +1038,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31107,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24215] = {
 		difficulty = {
@@ -958,6 +1049,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31108,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24216] = {
 		difficulty = {
@@ -968,6 +1060,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31109,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24217] = {
 		difficulty = {
@@ -978,6 +1071,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31110,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24218] = {
 		difficulty = {
@@ -988,6 +1082,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31111,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24219] = {
 		difficulty = {
@@ -998,6 +1093,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31112,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[24220] = {
 		difficulty = {
@@ -1008,6 +1104,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31113,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[25255] = {
 		difficulty = {
@@ -1019,6 +1116,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25255,
 		isSpell = true,
 		requiredSkill = 1,
+		phase = 1,
 	},
 	[25278] = {
 		difficulty = {
@@ -1030,6 +1128,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25278,
 		isSpell = true,
 		requiredSkill = 50,
+		phase = 1,
 	},
 	[25280] = {
 		difficulty = {
@@ -1041,6 +1140,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25280,
 		isSpell = true,
 		requiredSkill = 50,
+		phase = 1,
 	},
 	[25283] = {
 		difficulty = {
@@ -1052,6 +1152,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25283,
 		isSpell = true,
 		requiredSkill = 30,
+		phase = 1,
 	},
 	[25284] = {
 		difficulty = {
@@ -1063,6 +1164,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25284,
 		isSpell = true,
 		requiredSkill = 60,
+		phase = 1,
 	},
 	[25287] = {
 		difficulty = {
@@ -1074,6 +1176,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25287,
 		isSpell = true,
 		requiredSkill = 70,
+		phase = 1,
 	},
 	[25305] = {
 		difficulty = {
@@ -1085,6 +1188,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25305,
 		isSpell = true,
 		requiredSkill = 90,
+		phase = 1,
 	},
 	[25317] = {
 		difficulty = {
@@ -1096,6 +1200,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25317,
 		isSpell = true,
 		requiredSkill = 80,
+		phase = 1,
 	},
 	[25318] = {
 		difficulty = {
@@ -1107,6 +1212,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25318,
 		isSpell = true,
 		requiredSkill = 100,
+		phase = 1,
 	},
 	[25321] = {
 		difficulty = {
@@ -1118,6 +1224,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25321,
 		isSpell = true,
 		requiredSkill = 120,
+		phase = 1,
 	},
 	[25490] = {
 		difficulty = {
@@ -1129,6 +1236,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25490,
 		isSpell = true,
 		requiredSkill = 50,
+		phase = 1,
 	},
 	[25493] = {
 		difficulty = {
@@ -1140,6 +1248,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25493,
 		isSpell = true,
 		requiredSkill = 1,
+		phase = 1,
 	},
 	[25498] = {
 		difficulty = {
@@ -1151,6 +1260,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25498,
 		isSpell = true,
 		requiredSkill = 110,
+		phase = 1,
 	},
 	[25613] = {
 		difficulty = {
@@ -1162,6 +1272,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25613,
 		isSpell = true,
 		requiredSkill = 135,
+		phase = 1,
 	},
 	[25615] = {
 		difficulty = {
@@ -1173,6 +1284,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25615,
 		isSpell = true,
 		requiredSkill = 150,
+		phase = 1,
 	},
 	[25620] = {
 		difficulty = {
@@ -1184,6 +1296,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25620,
 		isSpell = true,
 		requiredSkill = 170,
+		phase = 1,
 	},
 	[25621] = {
 		difficulty = {
@@ -1195,6 +1308,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 25621,
 		isSpell = true,
 		requiredSkill = 180,
+		phase = 1,
 	},
 	[25902] = {
 		difficulty = {
@@ -1207,6 +1321,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 365,
 		reputationFaction = 941,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[25903] = {
 		difficulty = {
@@ -1219,6 +1334,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 365,
 		reputationFaction = 941,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[25904] = {
 		difficulty = {
@@ -1231,6 +1347,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 365,
 		reputationFaction = 935,
 		reputationLevel = 5,
+		phase = 1,
 	},
 	[25905] = {
 		difficulty = {
@@ -1241,6 +1358,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 32868,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[25906] = {
 		difficulty = {
@@ -1251,6 +1369,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 32869,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[25907] = {
 		difficulty = {
@@ -1261,6 +1380,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 32871,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[25908] = {
 		difficulty = {
@@ -1273,6 +1393,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 365,
 		reputationFaction = 941,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[25909] = {
 		difficulty = {
@@ -1283,6 +1404,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 32872,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[25910] = {
 		difficulty = {
@@ -1295,6 +1417,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 365,
 		reputationFaction = 989,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[26872] = {
 		difficulty = {
@@ -1306,6 +1429,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26872,
 		isSpell = true,
 		requiredSkill = 200,
+		phase = 1,
 	},
 	[26874] = {
 		difficulty = {
@@ -1317,6 +1441,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26874,
 		isSpell = true,
 		requiredSkill = 210,
+		phase = 1,
 	},
 	[26876] = {
 		difficulty = {
@@ -1328,6 +1453,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26876,
 		isSpell = true,
 		requiredSkill = 220,
+		phase = 1,
 	},
 	[26880] = {
 		difficulty = {
@@ -1339,6 +1465,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26880,
 		isSpell = true,
 		requiredSkill = 225,
+		phase = 1,
 	},
 	[26883] = {
 		difficulty = {
@@ -1350,6 +1477,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26883,
 		isSpell = true,
 		requiredSkill = 235,
+		phase = 1,
 	},
 	[26885] = {
 		difficulty = {
@@ -1361,6 +1489,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26885,
 		isSpell = true,
 		requiredSkill = 240,
+		phase = 1,
 	},
 	[26902] = {
 		difficulty = {
@@ -1372,6 +1501,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26902,
 		isSpell = true,
 		requiredSkill = 260,
+		phase = 1,
 	},
 	[26903] = {
 		difficulty = {
@@ -1383,6 +1513,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26903,
 		isSpell = true,
 		requiredSkill = 275,
+		phase = 1,
 	},
 	[26907] = {
 		difficulty = {
@@ -1394,6 +1525,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26907,
 		isSpell = true,
 		requiredSkill = 280,
+		phase = 1,
 	},
 	[26908] = {
 		difficulty = {
@@ -1405,6 +1537,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26908,
 		isSpell = true,
 		requiredSkill = 280,
+		phase = 1,
 	},
 	[26911] = {
 		difficulty = {
@@ -1416,6 +1549,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26911,
 		isSpell = true,
 		requiredSkill = 290,
+		phase = 1,
 	},
 	[26916] = {
 		difficulty = {
@@ -1427,6 +1561,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26916,
 		isSpell = true,
 		requiredSkill = 310,
+		phase = 1,
 	},
 	[26925] = {
 		difficulty = {
@@ -1438,6 +1573,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26925,
 		isSpell = true,
 		requiredSkill = 1,
+		phase = 1,
 	},
 	[26926] = {
 		difficulty = {
@@ -1449,6 +1585,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26926,
 		isSpell = true,
 		requiredSkill = 5,
+		phase = 1,
 	},
 	[26927] = {
 		difficulty = {
@@ -1460,6 +1597,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26927,
 		isSpell = true,
 		requiredSkill = 50,
+		phase = 1,
 	},
 	[26928] = {
 		difficulty = {
@@ -1471,6 +1609,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 26928,
 		isSpell = true,
 		requiredSkill = 30,
+		phase = 1,
 	},
 	[28291] = {
 		difficulty = {
@@ -1481,6 +1620,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 34069,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[28596] = {
 		difficulty = {
@@ -1491,6 +1631,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 34590,
 		requiredSkill = 305,
+		phase = 1,
 	},
 	[30826] = {
 		difficulty = {
@@ -1503,6 +1644,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 935,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[31048] = {
 		difficulty = {
@@ -1514,6 +1656,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 31048,
 		isSpell = true,
 		requiredSkill = 310,
+		phase = 1,
 	},
 	[31049] = {
 		difficulty = {
@@ -1525,6 +1668,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 31049,
 		isSpell = true,
 		requiredSkill = 310,
+		phase = 1,
 	},
 	[31050] = {
 		difficulty = {
@@ -1536,6 +1680,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 31050,
 		isSpell = true,
 		requiredSkill = 320,
+		phase = 1,
 	},
 	[31051] = {
 		difficulty = {
@@ -1547,6 +1692,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 31051,
 		isSpell = true,
 		requiredSkill = 335,
+		phase = 1,
 	},
 	[31052] = {
 		difficulty = {
@@ -1558,11 +1704,13 @@ RecipeBook.recipeDB[755] = {
 		teaches = 31052,
 		isSpell = true,
 		requiredSkill = 335,
+		phase = 1,
 	},
 	[31252] = {
 		teaches = 31252,
 		isSpell = true,
 		requiredSkill = 20,
+		phase = 1,
 	},
 	[31358] = {
 		difficulty = {
@@ -1575,6 +1723,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 370,
 		reputationFaction = 946,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[31359] = {
 		difficulty = {
@@ -1587,6 +1736,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 315,
 		reputationFaction = 946,
 		reputationLevel = 5,
+		phase = 1,
 	},
 	[31401] = {
 		difficulty = {
@@ -1597,6 +1747,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 38503,
 		requiredSkill = 375,
+		phase = 1,
 	},
 	[31402] = {
 		difficulty = {
@@ -1609,6 +1760,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 942,
 		reputationLevel = 8,
+		phase = 1,
 	},
 	[31870] = {
 		difficulty = {
@@ -1619,6 +1771,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39451,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[31871] = {
 		difficulty = {
@@ -1629,6 +1782,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39455,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[31872] = {
 		difficulty = {
@@ -1639,6 +1793,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39458,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[31873] = {
 		difficulty = {
@@ -1649,6 +1804,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39466,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[31874] = {
 		difficulty = {
@@ -1659,6 +1815,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39467,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[31875] = {
 		difficulty = {
@@ -1669,6 +1826,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39452,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[31876] = {
 		difficulty = {
@@ -1679,6 +1837,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39463,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[31877] = {
 		difficulty = {
@@ -1689,6 +1848,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39462,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[31878] = {
 		difficulty = {
@@ -1699,6 +1859,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39470,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[31879] = {
 		difficulty = {
@@ -1709,6 +1870,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39471,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[32178] = {
 		difficulty = {
@@ -1720,6 +1882,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 32178,
 		isSpell = true,
 		requiredSkill = 20,
+		phase = 1,
 	},
 	[32179] = {
 		difficulty = {
@@ -1731,6 +1894,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 32179,
 		isSpell = true,
 		requiredSkill = 20,
+		phase = 1,
 	},
 	[32259] = {
 		difficulty = {
@@ -1742,6 +1906,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 32259,
 		isSpell = true,
 		requiredSkill = 1,
+		phase = 1,
 	},
 	[32411] = {
 		difficulty = {
@@ -1752,6 +1917,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39963,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[32801] = {
 		difficulty = {
@@ -1763,6 +1929,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 32801,
 		isSpell = true,
 		requiredSkill = 50,
+		phase = 1,
 	},
 	[32807] = {
 		difficulty = {
@@ -1774,6 +1941,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 32807,
 		isSpell = true,
 		requiredSkill = 110,
+		phase = 1,
 	},
 	[32808] = {
 		difficulty = {
@@ -1785,6 +1953,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 32808,
 		isSpell = true,
 		requiredSkill = 175,
+		phase = 1,
 	},
 	[32809] = {
 		difficulty = {
@@ -1796,6 +1965,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 32809,
 		isSpell = true,
 		requiredSkill = 225,
+		phase = 1,
 	},
 	[33155] = {
 		difficulty = {
@@ -1808,6 +1978,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 935,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[33156] = {
 		difficulty = {
@@ -1820,6 +1991,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 941,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[33157] = {
 		difficulty = {
@@ -1832,6 +2004,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 1011,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[33158] = {
 		difficulty = {
@@ -1844,6 +2017,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 989,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[33159] = {
 		difficulty = {
@@ -1856,6 +2030,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 935,
 		reputationLevel = 6,
+		phase = 1,
 	},
 	[33160] = {
 		difficulty = {
@@ -1868,6 +2043,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 989,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[33305] = {
 		difficulty = {
@@ -1880,6 +2056,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 360,
 		reputationFaction = 941,
 		reputationLevel = 7,
+		phase = 1,
 	},
 	[33622] = {
 		difficulty = {
@@ -1892,6 +2069,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 365,
 		reputationFaction = 941,
 		reputationLevel = 8,
+		phase = 1,
 	},
 	[33783] = {
 		difficulty = {
@@ -1902,6 +2080,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 43493,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[34689] = {
 		difficulty = {
@@ -1912,6 +2091,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 44794,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[34955] = {
 		difficulty = {
@@ -1923,6 +2103,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 34955,
 		isSpell = true,
 		requiredSkill = 180,
+		phase = 1,
 	},
 	[34959] = {
 		difficulty = {
@@ -1934,6 +2115,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 34959,
 		isSpell = true,
 		requiredSkill = 200,
+		phase = 1,
 	},
 	[34960] = {
 		difficulty = {
@@ -1945,6 +2127,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 34960,
 		isSpell = true,
 		requiredSkill = 280,
+		phase = 1,
 	},
 	[34961] = {
 		difficulty = {
@@ -1956,6 +2139,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 34961,
 		isSpell = true,
 		requiredSkill = 290,
+		phase = 1,
 	},
 	[35238] = {
 		difficulty = {
@@ -1968,6 +2152,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 3,
 	},
 	[35239] = {
 		difficulty = {
@@ -1980,6 +2165,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 3,
 	},
 	[35240] = {
 		difficulty = {
@@ -1992,6 +2178,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 3,
 	},
 	[35241] = {
 		difficulty = {
@@ -2004,6 +2191,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 7,
+		phase = 3,
 	},
 	[35242] = {
 		difficulty = {
@@ -2014,6 +2202,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39728,
 		requiredSkill = 375,
+		phase = 3,
 	},
 	[35243] = {
 		difficulty = {
@@ -2024,6 +2213,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39727,
 		requiredSkill = 375,
+		phase = 3,
 	},
 	[35244] = {
 		difficulty = {
@@ -2036,6 +2226,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35245] = {
 		difficulty = {
@@ -2048,6 +2239,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35246] = {
 		difficulty = {
@@ -2060,6 +2252,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35247] = {
 		difficulty = {
@@ -2070,6 +2263,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39714,
 		requiredSkill = 375,
+		phase = 3,
 	},
 	[35248] = {
 		difficulty = {
@@ -2082,6 +2276,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35249] = {
 		difficulty = {
@@ -2094,6 +2289,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35250] = {
 		difficulty = {
@@ -2106,6 +2302,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35251] = {
 		difficulty = {
@@ -2118,6 +2315,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 3,
 	},
 	[35252] = {
 		difficulty = {
@@ -2130,6 +2328,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 7,
+		phase = 3,
 	},
 	[35253] = {
 		difficulty = {
@@ -2142,6 +2341,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 3,
 	},
 	[35254] = {
 		difficulty = {
@@ -2154,6 +2354,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 3,
 	},
 	[35255] = {
 		difficulty = {
@@ -2166,6 +2367,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35256] = {
 		difficulty = {
@@ -2178,6 +2380,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35257] = {
 		difficulty = {
@@ -2188,6 +2391,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39725,
 		requiredSkill = 375,
+		phase = 3,
 	},
 	[35258] = {
 		difficulty = {
@@ -2198,6 +2402,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39724,
 		requiredSkill = 375,
+		phase = 3,
 	},
 	[35259] = {
 		difficulty = {
@@ -2210,6 +2415,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 7,
+		phase = 3,
 	},
 	[35260] = {
 		difficulty = {
@@ -2222,6 +2428,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35261] = {
 		difficulty = {
@@ -2234,6 +2441,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35262] = {
 		difficulty = {
@@ -2246,6 +2454,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35263] = {
 		difficulty = {
@@ -2258,6 +2467,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35264] = {
 		difficulty = {
@@ -2270,6 +2480,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 5,
+		phase = 3,
 	},
 	[35265] = {
 		difficulty = {
@@ -2280,6 +2491,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39718,
 		requiredSkill = 375,
+		phase = 3,
 	},
 	[35266] = {
 		difficulty = {
@@ -2292,6 +2504,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 3,
 	},
 	[35267] = {
 		difficulty = {
@@ -2302,6 +2515,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39733,
 		requiredSkill = 375,
+		phase = 3,
 	},
 	[35268] = {
 		difficulty = {
@@ -2314,6 +2528,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 3,
 	},
 	[35269] = {
 		difficulty = {
@@ -2326,6 +2541,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 3,
 	},
 	[35270] = {
 		difficulty = {
@@ -2336,6 +2552,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39737,
 		requiredSkill = 375,
+		phase = 3,
 	},
 	[35271] = {
 		difficulty = {
@@ -2348,6 +2565,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 7,
+		phase = 3,
 	},
 	[35304] = {
 		difficulty = {
@@ -2358,6 +2576,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31092,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[35305] = {
 		difficulty = {
@@ -2368,6 +2587,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31088,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[35306] = {
 		difficulty = {
@@ -2378,6 +2598,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31089,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[35307] = {
 		difficulty = {
@@ -2388,6 +2609,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 31098,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[35322] = {
 		difficulty = {
@@ -2400,6 +2622,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 350,
 		reputationFaction = 1077,
 		reputationLevel = 8,
+		phase = 5,
 	},
 	[35323] = {
 		difficulty = {
@@ -2412,6 +2635,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 350,
 		reputationFaction = 1077,
 		reputationLevel = 8,
+		phase = 5,
 	},
 	[35325] = {
 		difficulty = {
@@ -2424,6 +2648,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 350,
 		reputationFaction = 1077,
 		reputationLevel = 8,
+		phase = 5,
 	},
 	[35502] = {
 		difficulty = {
@@ -2436,6 +2661,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 370,
 		reputationFaction = 1077,
 		reputationLevel = 7,
+		phase = 5,
 	},
 	[35505] = {
 		difficulty = {
@@ -2448,6 +2674,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 370,
 		reputationFaction = 1077,
 		reputationLevel = 7,
+		phase = 5,
 	},
 	[35533] = {
 		difficulty = {
@@ -2458,6 +2685,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 46126,
 		requiredSkill = 365,
+		phase = 5,
 	},
 	[35534] = {
 		difficulty = {
@@ -2468,6 +2696,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 46124,
 		requiredSkill = 365,
+		phase = 5,
 	},
 	[35535] = {
 		difficulty = {
@@ -2478,6 +2707,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 46127,
 		requiredSkill = 365,
+		phase = 5,
 	},
 	[35536] = {
 		difficulty = {
@@ -2488,6 +2718,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 46122,
 		requiredSkill = 365,
+		phase = 5,
 	},
 	[35537] = {
 		difficulty = {
@@ -2498,6 +2729,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 46125,
 		requiredSkill = 365,
+		phase = 5,
 	},
 	[35538] = {
 		difficulty = {
@@ -2508,6 +2740,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 46123,
 		requiredSkill = 365,
+		phase = 5,
 	},
 	[35695] = {
 		difficulty = {
@@ -2520,6 +2753,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 1077,
 		reputationLevel = 7,
+		phase = 5,
 	},
 	[35696] = {
 		difficulty = {
@@ -2532,6 +2766,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 1077,
 		reputationLevel = 7,
+		phase = 5,
 	},
 	[35697] = {
 		difficulty = {
@@ -2544,6 +2779,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 1077,
 		reputationLevel = 7,
+		phase = 5,
 	},
 	[35698] = {
 		difficulty = {
@@ -2556,6 +2792,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 1077,
 		reputationLevel = 7,
+		phase = 5,
 	},
 	[35699] = {
 		difficulty = {
@@ -2568,6 +2805,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 1077,
 		reputationLevel = 7,
+		phase = 5,
 	},
 	[35708] = {
 		difficulty = {
@@ -2580,6 +2818,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 350,
 		reputationFaction = 1077,
 		reputationLevel = 7,
+		phase = 5,
 	},
 	[35766] = {
 		difficulty = {
@@ -2592,6 +2831,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 5,
 	},
 	[35767] = {
 		difficulty = {
@@ -2604,6 +2844,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 5,
 	},
 	[35768] = {
 		difficulty = {
@@ -2616,6 +2857,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 5,
 	},
 	[35769] = {
 		difficulty = {
@@ -2628,6 +2870,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 990,
 		reputationLevel = 6,
+		phase = 5,
 	},
 	[36523] = {
 		difficulty = {
@@ -2639,6 +2882,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 36523,
 		isSpell = true,
 		requiredSkill = 75,
+		phase = 1,
 	},
 	[36524] = {
 		difficulty = {
@@ -2650,6 +2894,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 36524,
 		isSpell = true,
 		requiredSkill = 105,
+		phase = 1,
 	},
 	[36525] = {
 		difficulty = {
@@ -2661,6 +2906,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 36525,
 		isSpell = true,
 		requiredSkill = 230,
+		phase = 1,
 	},
 	[36526] = {
 		difficulty = {
@@ -2672,6 +2918,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 36526,
 		isSpell = true,
 		requiredSkill = 265,
+		phase = 1,
 	},
 	[37504] = {
 		difficulty = {
@@ -2684,6 +2931,7 @@ RecipeBook.recipeDB[755] = {
 		requiredSkill = 375,
 		reputationFaction = 1077,
 		reputationLevel = 8,
+		phase = 5,
 	},
 	[37818] = {
 		difficulty = {
@@ -2695,6 +2943,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 37818,
 		isSpell = true,
 		requiredSkill = 65,
+		phase = 1,
 	},
 	[38068] = {
 		difficulty = {
@@ -2706,6 +2955,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 38068,
 		isSpell = true,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[38175] = {
 		difficulty = {
@@ -2717,6 +2967,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 38175,
 		isSpell = true,
 		requiredSkill = 80,
+		phase = 1,
 	},
 	[40514] = {
 		difficulty = {
@@ -2728,6 +2979,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 40514,
 		isSpell = true,
 		requiredSkill = 340,
+		phase = 1,
 	},
 	[41414] = {
 		difficulty = {
@@ -2739,6 +2991,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 41414,
 		isSpell = true,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[41415] = {
 		difficulty = {
@@ -2750,6 +3003,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 41415,
 		isSpell = true,
 		requiredSkill = 330,
+		phase = 1,
 	},
 	[41418] = {
 		difficulty = {
@@ -2761,6 +3015,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 41418,
 		isSpell = true,
 		requiredSkill = 365,
+		phase = 1,
 	},
 	[41420] = {
 		difficulty = {
@@ -2772,6 +3027,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 41420,
 		isSpell = true,
 		requiredSkill = 325,
+		phase = 1,
 	},
 	[41429] = {
 		difficulty = {
@@ -2783,6 +3039,7 @@ RecipeBook.recipeDB[755] = {
 		teaches = 41429,
 		isSpell = true,
 		requiredSkill = 350,
+		phase = 1,
 	},
 	[47280] = {
 		difficulty = {
@@ -2794,5 +3051,6 @@ RecipeBook.recipeDB[755] = {
 		teaches = 47280,
 		isSpell = true,
 		requiredSkill = 350,
+		phase = 1,
 	},
 }
