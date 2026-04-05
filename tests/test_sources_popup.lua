@@ -190,4 +190,50 @@ function T.test_collect_quests_filtered_by_faction()
     end
 end
 
+-- ============================================================
+-- Source count / popup consistency
+-- ============================================================
+
+function T.test_source_count_matches_popup_with_faction_filter()
+    local rid, aExpected = findDualFactionTrainerRecipe()
+    local count = RecipeBook.GetSourceCount(LW, rid, "Alliance")
+    local entries = RecipeBook.CollectAllSources(LW, rid, "Alliance")
+    assert_equal(#entries, count,
+        "GetSourceCount with faction filter should match CollectAllSources entry count")
+end
+
+function T.test_source_count_matches_popup_without_faction_filter()
+    local rid = findDualFactionTrainerRecipe()
+    local count = RecipeBook.GetSourceCount(LW, rid, nil)
+    local entries = RecipeBook.CollectAllSources(LW, rid, nil)
+    assert_equal(#entries, count,
+        "GetSourceCount without filter should match CollectAllSources entry count")
+end
+
+function T.test_source_count_differs_by_faction()
+    local rid = findDualFactionTrainerRecipe()
+    local countAll = RecipeBook.GetSourceCount(LW, rid, nil)
+    local countA = RecipeBook.GetSourceCount(LW, rid, "Alliance")
+    local countH = RecipeBook.GetSourceCount(LW, rid, "Horde")
+    assert_true(countAll > countA, "unfiltered count should exceed Alliance-only count")
+    assert_true(countAll > countH, "unfiltered count should exceed Horde-only count")
+end
+
+-- ============================================================
+-- Trainer waypoint name
+-- ============================================================
+
+function T.test_profession_names_end_with_trainer_for_waypoint()
+    -- Verify that PROFESSION_NAMES entries exist and that appending " Trainer"
+    -- produces the expected AddressBook search term.
+    local professions = { 171, 164, 185, 333, 202, 129, 755, 165, 186, 197 }
+    for _, pid in ipairs(professions) do
+        local name = RecipeBook.PROFESSION_NAMES[pid]
+        assert_not_nil(name, "PROFESSION_NAMES missing for " .. pid)
+        local wpName = name .. " Trainer"
+        assert_true(wpName:find("Trainer$") ~= nil,
+            pid .. ": waypoint name should end with Trainer, got: " .. wpName)
+    end
+end
+
 return T

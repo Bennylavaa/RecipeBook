@@ -468,8 +468,11 @@ function RecipeBook:ShowSourcesPopup(profID, recipeID)
     frame._subtitle:SetText(recipeName)
 
     local scrollChild = frame._scrollChild
-    local playerFaction = UnitFactionGroup("player")
-    local entries = CollectAllSources(profID, recipeID, playerFaction)
+    local factionFilter = nil
+    if self.myFactionOnly then
+        factionFilter = UnitFactionGroup("player")
+    end
+    local entries = CollectAllSources(profID, recipeID, factionFilter)
     local y = 0
 
     if #entries == 0 then
@@ -553,3 +556,13 @@ function RecipeBook:HideSourcesPopup()
     if popupFrame then popupFrame:Hide() end
 end
 RecipeBook.HideDropSourcesPopup = RecipeBook.HideSourcesPopup
+
+function RecipeBook:IsSourcesPopupShown()
+    return popupFrame and popupFrame:IsShown() and popupFrame._profID and popupFrame._recipeID
+end
+
+function RecipeBook:RefreshSourcesPopup()
+    if self:IsSourcesPopupShown() then
+        self:ShowSourcesPopup(popupFrame._profID, popupFrame._recipeID)
+    end
+end

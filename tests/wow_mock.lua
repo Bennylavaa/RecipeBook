@@ -361,6 +361,7 @@ function MockWoW._loadAddonFiles()
     dofile("RecipeTracker.lua")
     dofile("Core.lua")
     dofile("UIControls.lua")
+    dofile("UIRender.lua")
     dofile("UIDropSources.lua")
 end
 

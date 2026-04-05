@@ -356,31 +356,48 @@ local function RecipePassesZoneFilter(profID, recipeID, filterZone, filterContin
     return false
 end
 
--- Count the total number of distinct source entities for a recipe
--- (trainers/vendors/NPCs/objects/quests/items/fishing/unique entries).
-local function GetSourceCount(profID, recipeID)
+-- Count the total number of distinct source entities for a recipe,
+-- excluding opposite-faction trainers/vendors/quests when filtered.
+local function GetSourceCount(profID, recipeID, factionFilter)
     local sources = RecipeBook.sourceDB and RecipeBook.sourceDB[profID]
         and RecipeBook.sourceDB[profID][recipeID]
     if not sources then return 0 end
+    local playerFaction = factionFilter
     local n = 0
     for srcType, srcData in pairs(sources) do
         if type(srcData) == "table" then
             if srcType == "unique" then
                 for _ in ipairs(srcData) do n = n + 1 end
             elseif srcType == "worldDrop" then
-                -- World drops count as a single logical source regardless of
-                -- how many zones they appear in.
                 n = n + 1
+            elseif srcType == "trainer" or srcType == "vendor" then
+                for npcID in pairs(srcData) do
+                    local npc = RecipeBook.npcDB and RecipeBook.npcDB[npcID]
+                    if not playerFaction or not npc or not npc.faction
+                        or npc.faction == playerFaction then
+                        n = n + 1
+                    end
+                end
+            elseif srcType == "quest" then
+                for questID in pairs(srcData) do
+                    local q = RecipeBook.questDB and RecipeBook.questDB[questID]
+                    if not playerFaction or not q or not q.faction
+                        or q.faction == playerFaction then
+                        n = n + 1
+                    end
+                end
             else
                 for _ in pairs(srcData) do n = n + 1 end
             end
         elseif srcData == true then
-            -- Flag-style sources (e.g. discovery) count as one entry.
             n = n + 1
         end
     end
     return n
 end
+
+-- Expose for testing
+RecipeBook.GetSourceCount = GetSourceCount
 
 -- Pick the best source for a single source type; returns the same 6-tuple as
 -- GetBestSourceSummary, or nil if nothing in this type matches the filter.
@@ -703,7 +720,7 @@ local function BuildDisplayData(filters)
 
         if not dominated then
             local summaries = GetAllSourceSummaries(profID, recipeID, filters.zone, filters.continent)
-            local count = GetSourceCount(profID, recipeID)
+            local count = GetSourceCount(profID, recipeID, filters.playerFaction)
             local isKnown = RecipeBook:IsRecipeKnown(profID, recipeID)
             for _, s in ipairs(summaries) do
                 local srcType, srcID, srcName, srcZone, isWorldDrop, dropRate = s[1], s[2], s[3], s[4], s[5], s[6]
@@ -883,7 +900,7 @@ function RecipeBook:RefreshRecipeList()
                         if entry.sourceType == "trainer" then
                             -- For trainers, search AB by profession name
                             local profName = RecipeBook.PROFESSION_NAMES[filters.professionID]
-                            row._npcName = profName
+                            row._npcName = profName .. " Trainer"
                             row._zoneName = nil
                         elseif entry.sourceType == "vendor"
                             or entry.sourceType == "drop" or entry.sourceType == "pickpocket" then
@@ -942,5 +959,10 @@ function RecipeBook:RefreshRecipeList()
         self.mainFrame._countText:SetText(
             totalShown .. " shown | " .. totalKnown .. "/" .. totalRecipes .. " known"
         )
+    end
+
+    -- Refresh the sources popup if it's open
+    if self.IsSourcesPopupShown and self:IsSourcesPopupShown() then
+        self:RefreshSourcesPopup()
     end
 end

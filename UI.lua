@@ -178,10 +178,12 @@ function RecipeBook:CreateMainFrame()
     factionCheck:SetSize(20, 20)
     factionCheck:SetChecked(true)
     myFactionOnly = true
+    RecipeBook.myFactionOnly = true
     _G["RecipeBookFactionFilterText"]:SetText("My Faction")
     _G["RecipeBookFactionFilterText"]:SetFontObject("RecipeBookFontSmall")
     factionCheck:SetScript("OnClick", function(self)
         myFactionOnly = self:GetChecked()
+        RecipeBook.myFactionOnly = myFactionOnly
         RecipeBook:RefreshRecipeList()
     end)
 
