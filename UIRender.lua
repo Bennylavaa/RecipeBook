@@ -182,7 +182,10 @@ local function OnRecipeEnter(self)
         end
     end
 
-    -- Shift-click hint
+    -- Interaction hints
+    if RecipeBook:RecipeHasAnySources(self._profID, self._recipeID) then
+        GameTooltip:AddLine("Right-click to view all sources", 0.5, 0.5, 0.5)
+    end
     GameTooltip:AddLine("Shift-click to link in chat", 0.5, 0.5, 0.5)
 
     -- Known status

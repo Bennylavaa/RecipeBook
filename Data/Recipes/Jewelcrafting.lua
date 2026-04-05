@@ -1771,7 +1771,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39451,
 		requiredSkill = 325,
-		phase = 1,
+		phase = 2, -- Anniversary override (RM says 1)
 	},
 	[31871] = {
 		difficulty = {
@@ -1804,7 +1804,7 @@ RecipeBook.recipeDB[755] = {
 		},
 		teaches = 39466,
 		requiredSkill = 325,
-		phase = 1,
+		phase = 2, -- Anniversary override (RM says 1)
 	},
 	[31874] = {
 		difficulty = {

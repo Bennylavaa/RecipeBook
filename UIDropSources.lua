@@ -23,7 +23,7 @@ local TYPE_ORDER = {
 }
 
 -- Gather every source for a recipe (trainer, vendor, drop, quest, …)
-local function CollectAllSources(profID, recipeID)
+local function CollectAllSources(profID, recipeID, factionFilter)
     local sources = RecipeBook.sourceDB
         and RecipeBook.sourceDB[profID]
         and RecipeBook.sourceDB[profID][recipeID]
@@ -45,40 +45,56 @@ local function CollectAllSources(profID, recipeID)
         }
     end
 
+    -- Helper: should this NPC be shown given the faction filter?
+    -- Trainers/vendors are faction-gated; drops/pickpockets are not.
+    local function npcPassesFaction(npcID, srcType)
+        if not factionFilter then return true end
+        if srcType == "drop" or srcType == "pickpocket" then return true end
+        local npc = RecipeBook.npcDB and RecipeBook.npcDB[npcID]
+        if not npc or not npc.faction then return true end  -- neutral
+        return npc.faction == factionFilter
+    end
+
     for srcType, srcData in pairs(sources) do
         if srcType == "trainer" or srcType == "vendor"
             or srcType == "drop" or srcType == "pickpocket" then
             for npcID, val in pairs(srcData) do
-                if srcType == "vendor" and type(val) == "table" then
-                    -- Vendor rows can carry cost/stock
-                    local cost = val.cost
-                    if cost then
-                        cost = cost:gsub("gld", "g "):gsub("svr", "s "):gsub("cpr", "c")
+                if npcPassesFaction(npcID, srcType) then
+                    if srcType == "vendor" and type(val) == "table" then
+                        local cost = val.cost
+                        if cost then
+                            cost = cost:gsub("gld", "g "):gsub("svr", "s "):gsub("cpr", "c")
+                        end
+                        addNPC(srcType, npcID, nil, cost)
+                    else
+                        addNPC(srcType, npcID, val, nil)
                     end
-                    addNPC(srcType, npcID, nil, cost)
-                else
-                    addNPC(srcType, npcID, val, nil)
                 end
             end
         elseif srcType == "quest" then
             for questID in pairs(srcData) do
                 local q = RecipeBook.questDB and RecipeBook.questDB[questID]
-                local label = q and q.name or ("Quest #" .. questID)
-                local extra = q and q.level and ("Level " .. q.level) or nil
-                local zone = nil
-                local npcID = q and q.startNPC
-                if npcID then
-                    zone = RecipeBook:GetFirstZoneForNPC(npcID)
+                -- Skip quests locked to the opposite faction.
+                if factionFilter and q and q.faction and q.faction ~= factionFilter then
+                    -- filtered out
+                else
+                    local label = q and q.name or ("Quest #" .. questID)
+                    local extra = q and q.level and ("Level " .. q.level) or nil
+                    local zone = nil
+                    local npcID = q and q.startNPC
+                    if npcID then
+                        zone = RecipeBook:GetFirstZoneForNPC(npcID)
+                    end
+                    list[#list + 1] = {
+                        sourceType = "quest",
+                        questID = questID,
+                        npcID = npcID,
+                        name = label,
+                        zone = zone,
+                        faction = q and q.faction,
+                        extra = extra,
+                    }
                 end
-                list[#list + 1] = {
-                    sourceType = "quest",
-                    questID = questID,
-                    npcID = npcID,
-                    name = label,
-                    zone = zone,
-                    faction = q and q.faction,
-                    extra = extra,
-                }
             end
         elseif srcType == "object" then
             for objID in pairs(srcData) do
@@ -136,6 +152,9 @@ local function CollectAllSources(profID, recipeID)
     end)
     return list
 end
+
+-- Expose for testing
+RecipeBook.CollectAllSources = CollectAllSources
 
 -- Does a recipe have any sources listed?
 function RecipeBook:RecipeHasAnySources(profID, recipeID)
@@ -449,7 +468,8 @@ function RecipeBook:ShowSourcesPopup(profID, recipeID)
     frame._subtitle:SetText(recipeName)
 
     local scrollChild = frame._scrollChild
-    local entries = CollectAllSources(profID, recipeID)
+    local playerFaction = UnitFactionGroup("player")
+    local entries = CollectAllSources(profID, recipeID, playerFaction)
     local y = 0
 
     if #entries == 0 then

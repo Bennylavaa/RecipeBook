@@ -30,7 +30,11 @@ PROFESSIONS = [
     "Poisons", "Tailoring",
 ]
 
-SKIP_IDS = {35310, 35311, 35308, 35309}
+SKIP_IDS = {
+    35310, 35311,  # Engineering: Potion Injectors (Kael'thas drop, phase 5)
+    35308, 35309,  # Tailoring: Unyielding Bracers/Girdle (Sunwell era, phase 5)
+    31870, 31873,  # Jewelcrafting: Anniversary phase 2 overrides (RM says 1)
+}
 
 
 def parse_phases(path):
