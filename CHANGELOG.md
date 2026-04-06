@@ -1,5 +1,10 @@
 # RecipeBook Changelog
 
+## v1.1.1
+
+### Fixes
+- Updated loading sequence to fix bad lag on first open.
+
 ## v1.1.0
 
 ### New Features

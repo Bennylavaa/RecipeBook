@@ -1,6 +1,6 @@
 RecipeBook = RecipeBook or {}
 
-RecipeBook.VERSION = "1.1.0"
+RecipeBook.VERSION = "1.1.1"
 RecipeBook.ADDON_NAME = "RecipeBook"
 RecipeBook.mainFrame = nil
 
@@ -575,34 +575,15 @@ SlashCmdList["RECIPEBOOK"] = function(msg)
     end
 end
 
--- Release runtime caches when the main window is closed.
--- Static data tables (recipeDB, sourceDB, npcDB, etc.) are kept — they're
--- loaded once from Lua files and cannot be rebuilt without /reload.
+-- Release UI-specific state when the main window is closed.
+-- Recipe name/icon caches and map lookups are session-stable (built once
+-- at login) and kept across open/close cycles to avoid a costly rebuild.
 function RecipeBook:OnClose()
-    -- UI row frames and render caches
+    -- UI row frames and render caches (cheap to rebuild on next open)
     self:ClearRenderCaches()
     self:CleanupSourcesPopup()
-
-    -- Name / icon / quality caches (rebuilt lazily or on next open)
-    wipe(self.recipeNames)
-    wipe(self.recipeIcons)
-    wipe(self.itemNames)
-
-    -- Map and lookup caches
-    self:ClearMapCaches()
     self:ClearTeachesCache()
-
-    -- Return pooled frames (can't truly free frames, but release references)
     wipe(self.framePool)
-end
-
--- Rebuild caches when the main window is opened.
-function RecipeBook:OnOpen()
-    self:BuildMapLookup()
-    self:BuildAreaToZoneLookup()
-    self:BuildContinentZoneMap()
-    self:CacheRecipeNames()
-    self:CacheItemSourceNames()
 end
 
 function RecipeBook:Toggle()
@@ -613,7 +594,6 @@ function RecipeBook:Toggle()
     if self.mainFrame:IsShown() then
         self.mainFrame:Hide()
     else
-        self:OnOpen()
         self.mainFrame:Show()
         self:RefreshRecipeList()
     end
