@@ -35408,6 +35408,15 @@ RecipeBook.npcDB = {
 			3523,
 		},
 	},
+	[19796] = {
+		level = "68 - 69",
+		names = {
+			enUS = "Eclipsion Archmage",
+		},
+		zones = {
+			3520,
+		},
+	},
 	[18873] = {
 		names = {
 			enUS = "Disembodied Protector",
