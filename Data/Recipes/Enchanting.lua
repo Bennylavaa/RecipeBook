@@ -1026,7 +1026,7 @@ RecipeBook.recipeDB[333] = {
 		reputationFaction = 933,
 		reputationLevel = 6,
 		requiredSkill = 340,
-		phase = 1,
+		phase = 3,
 	},
 	[22563] = {
 		teaches = 28019,
