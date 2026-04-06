@@ -35400,6 +35400,14 @@ RecipeBook.npcDB = {
 			3523,
 		},
 	},
+	[18870] = {
+		names = {
+			enUS = "Voidshrieker",
+		},
+		zones = {
+			3523,
+		},
+	},
 	[18873] = {
 		names = {
 			enUS = "Disembodied Protector",
