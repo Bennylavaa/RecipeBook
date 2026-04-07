@@ -41,7 +41,10 @@ local function GetTeachesLookup(profID)
     if recipes then
         for recipeID, data in pairs(recipes) do
             if data.teaches and type(data.teaches) == "number" then
-                lookup[data.teaches] = recipeID
+                if not lookup[data.teaches] then
+                    lookup[data.teaches] = {}
+                end
+                tinsert(lookup[data.teaches], recipeID)
             end
         end
     end
@@ -108,9 +111,11 @@ function RecipeBook:ScanProfessionWindow()
         end
         -- Strategy 2: crafted item ID is a "teaches" value
         if itemID then
-            local recipeID = teachesLookup[itemID]
-            if recipeID then
-                RecipeBookCharDB.knownRecipes[profID][recipeID] = true
+            local recipeIDs = teachesLookup[itemID]
+            if recipeIDs then
+                for _, rid in ipairs(recipeIDs) do
+                    RecipeBookCharDB.knownRecipes[profID][rid] = true
+                end
                 matched = true
             end
         end
@@ -121,9 +126,11 @@ function RecipeBook:ScanProfessionWindow()
         end
         -- Strategy 4: recipe spell ID is a "teaches" value
         if spellID then
-            local recipeID = teachesLookup[spellID]
-            if recipeID then
-                RecipeBookCharDB.knownRecipes[profID][recipeID] = true
+            local recipeIDs = teachesLookup[spellID]
+            if recipeIDs then
+                for _, rid in ipairs(recipeIDs) do
+                    RecipeBookCharDB.knownRecipes[profID][rid] = true
+                end
                 matched = true
             end
         end
@@ -179,7 +186,18 @@ function RecipeBook:IsRecipeKnown(profID, recipeID)
     if not RecipeBookCharDB or not RecipeBookCharDB.knownRecipes then return false end
     local profRecipes = RecipeBookCharDB.knownRecipes[profID]
     if not profRecipes then return false end
-    return profRecipes[recipeID] == true
+    if profRecipes[recipeID] then return true end
+
+    -- Check if a sibling recipe (same teaches value) is known
+    local data = self.recipeDB[profID] and self.recipeDB[profID][recipeID]
+    if data and data.teaches then
+        for otherID, otherData in pairs(self.recipeDB[profID]) do
+            if otherID ~= recipeID and otherData.teaches == data.teaches and profRecipes[otherID] then
+                return true
+            end
+        end
+    end
+    return false
 end
 
 function RecipeBook:RegisterTrackingEvents(eventFrame)

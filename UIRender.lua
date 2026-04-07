@@ -401,7 +401,7 @@ RecipeBook.GetSourceCount = GetSourceCount
 
 -- Pick the best source for a single source type; returns the same 6-tuple as
 -- GetBestSourceSummary, or nil if nothing in this type matches the filter.
-local function BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, passes)
+local function BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, passes, playerFaction)
             if srcType == "unique" then
                 if #srcData > 0 then
                     local uid = srcData[1]
@@ -423,14 +423,32 @@ local function BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, 
                 local bestID, bestRate, bestName
                 for npcID, rate in pairs(srcData) do
                     if passes(srcType, npcID) then
-                        local r = type(rate) == "number" and rate or -1
-                        local name = RecipeBook:GetNPCName(npcID)
-                        if not bestID
-                            or r > bestRate
-                            or (r == bestRate and name < bestName) then
-                            bestID = npcID
-                            bestRate = r
-                            bestName = name
+                        -- Faction check: skip NPCs exclusive to opposite faction
+                        if playerFaction then
+                            local npc = RecipeBook.npcDB and RecipeBook.npcDB[npcID]
+                            if npc and npc.faction and npc.faction ~= playerFaction then
+                                -- skip opposite-faction NPC
+                            else
+                                local r = type(rate) == "number" and rate or -1
+                                local name = RecipeBook:GetNPCName(npcID)
+                                if not bestID
+                                    or r > bestRate
+                                    or (r == bestRate and name < bestName) then
+                                    bestID = npcID
+                                    bestRate = r
+                                    bestName = name
+                                end
+                            end
+                        else
+                            local r = type(rate) == "number" and rate or -1
+                            local name = RecipeBook:GetNPCName(npcID)
+                            if not bestID
+                                or r > bestRate
+                                or (r == bestRate and name < bestName) then
+                                bestID = npcID
+                                bestRate = r
+                                bestName = name
+                            end
                         end
                     end
                 end
@@ -443,28 +461,34 @@ local function BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, 
                 -- Trainers: just show "Trainer" — use AB to find nearest.
                 -- sourceID = nil signals the waypoint handler to search by profession.
                 -- When a filter is active, require at least one trainer NPC in zone.
-                if not hasFilter then
+                if not hasFilter and not playerFaction then
                     return srcType, nil, "Trainer", nil, false, nil
                 end
                 for npcID in pairs(srcData) do
                     if passes("trainer", npcID) then
-                        return srcType, nil, "Trainer", nil, false, nil
+                        -- Faction check: skip trainers exclusive to opposite faction
+                        local npc = RecipeBook.npcDB and RecipeBook.npcDB[npcID]
+                        if not playerFaction or not npc or not npc.faction or npc.faction == playerFaction then
+                            return srcType, nil, "Trainer", nil, false, nil
+                        end
                     end
                 end
             elseif srcType == "vendor" then
                 -- Vendors: show specific NPC, prefer player faction, require filter match.
-                local _, playerFaction = UnitFactionGroup("player")
+                local _, detectedFaction = UnitFactionGroup("player")
+                local factionToUse = playerFaction or detectedFaction
                 local fallbackID = nil
                 for npcID in pairs(srcData) do
                     if passes("vendor", npcID) then
                         local npc = RecipeBook.npcDB and RecipeBook.npcDB[npcID]
                         local npcFaction = npc and npc.faction
-                        if npcFaction == playerFaction or not npcFaction then
+                        if npcFaction == factionToUse or not npcFaction then
                             local name = RecipeBook:GetNPCName(npcID)
                             local zone = RecipeBook:GetFirstZoneForNPC(npcID)
                             return srcType, npcID, name, zone, false, nil
                         end
-                        if not fallbackID then fallbackID = npcID end
+                        -- Only use opposite-faction NPC as fallback when faction filter is off
+                        if not playerFaction and not fallbackID then fallbackID = npcID end
                     end
                 end
                 if fallbackID then
@@ -473,7 +497,8 @@ local function BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, 
                     return srcType, fallbackID, name, zone, false, nil
                 end
             elseif srcType == "quest" then
-                local _, playerFaction = UnitFactionGroup("player")
+                local _, detectedFaction = UnitFactionGroup("player")
+                local factionToUse = playerFaction or detectedFaction
                 local function questFaction(qd)
                     if not qd then return nil end
                     if qd.faction then return qd.faction end
@@ -498,7 +523,7 @@ local function BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, 
                     if passes("quest", questID) then
                         local qd = RecipeBook.questDB and RecipeBook.questDB[questID]
                         local qFaction = questFaction(qd)
-                        if qFaction == playerFaction or not qFaction then
+                        if qFaction == factionToUse or not qFaction then
                             local name, zone = questDisplay(questID)
                             return srcType, questID, name, zone, false, nil
                         end
@@ -510,11 +535,12 @@ local function BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, 
                     for questID in pairs(srcData) do
                         local qd = RecipeBook.questDB and RecipeBook.questDB[questID]
                         local qFaction = questFaction(qd)
-                        if qFaction == playerFaction or not qFaction then
+                        if qFaction == factionToUse or not qFaction then
                             local name, zone = questDisplay(questID)
                             return srcType, questID, name, zone, false, nil
                         end
-                        if not bestQuestID then bestQuestID = questID end
+                        -- Only use opposite-faction quest as fallback when faction filter is off
+                        if not playerFaction and not bestQuestID then bestQuestID = questID end
                     end
                     if bestQuestID then
                         local name, zone = questDisplay(bestQuestID)
@@ -581,7 +607,7 @@ end
 
 -- Build the best single-source summary for a recipe row (first match across
 -- all source types in SOURCE_ORDER).
-local function GetBestSourceSummary(profID, recipeID, filterZone, filterContinent)
+local function GetBestSourceSummary(profID, recipeID, filterZone, filterContinent, playerFaction)
     local sources = RecipeBook.sourceDB[profID] and RecipeBook.sourceDB[profID][recipeID]
     if not sources then
         -- No source data at all — default to Trainer (common for basic learned recipes)
@@ -595,7 +621,7 @@ local function GetBestSourceSummary(profID, recipeID, filterZone, filterContinen
     for _, srcType in ipairs(RecipeBook.SOURCE_ORDER) do
         local srcData = sources[srcType]
         if srcData then
-            local a, b, c, d, e, f = BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, passes)
+            local a, b, c, d, e, f = BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, passes, playerFaction)
             if a then return a, b, c, d, e, f end
         end
     end
@@ -604,7 +630,7 @@ end
 
 -- Build one summary per source type for a recipe (for multi-category display).
 -- Returns an array of 6-tuples, in SOURCE_ORDER.
-local function GetAllSourceSummaries(profID, recipeID, filterZone, filterContinent)
+local function GetAllSourceSummaries(profID, recipeID, filterZone, filterContinent, playerFaction)
     local sources = RecipeBook.sourceDB[profID] and RecipeBook.sourceDB[profID][recipeID]
     if not sources then
         return { { "trainer", nil, "Trainer", nil, false, nil } }
@@ -618,7 +644,7 @@ local function GetAllSourceSummaries(profID, recipeID, filterZone, filterContine
     for _, srcType in ipairs(RecipeBook.SOURCE_ORDER) do
         local srcData = sources[srcType]
         if srcData then
-            local a, b, c, d, e, f = BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, passes)
+            local a, b, c, d, e, f = BestSourceForType(profID, recipeID, srcType, srcData, hasFilter, passes, playerFaction)
             if a then
                 out[#out + 1] = { a, b, c, d, e, f }
             end
@@ -719,7 +745,7 @@ local function BuildDisplayData(filters)
         end
 
         if not dominated then
-            local summaries = GetAllSourceSummaries(profID, recipeID, filters.zone, filters.continent)
+            local summaries = GetAllSourceSummaries(profID, recipeID, filters.zone, filters.continent, filters.playerFaction)
             local count = GetSourceCount(profID, recipeID, filters.playerFaction)
             local isKnown = RecipeBook:IsRecipeKnown(profID, recipeID)
             for _, s in ipairs(summaries) do
